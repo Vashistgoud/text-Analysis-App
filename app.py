@@ -1,11 +1,11 @@
 import os
+import nltk
 from tracemalloc import stop
 import streamlit as st
 import numpy as np
 import pandas as pd
 import re
 import string
-import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
@@ -25,6 +25,10 @@ nltk.data.path.append(nltk_data_dir)
 # Download necessary NLTK resources
 nltk.download('punkt', download_dir=nltk_data_dir)
 nltk.download('stopwords', download_dir=nltk_data_dir)
+
+# Force re-download and verification
+nltk.data.find('tokenizers/punkt')
+
 sw = nltk.corpus.stopwords.words("english")
 
 # Streamlit app navigation
