@@ -56,7 +56,7 @@ https://text-analysis-app-isb5cxy85eay4p7f8xbvco.streamlit.app/
 ## Glance At The Hosted Application- 
 
 ### 1. Home Page
-![image](https://user-images.githubusercontent.com/78029145/154792997-c60376bb-411a-4624-aeeb-f552416a8cfb.png)
+![image](C:\Users\vashi\Pictures\Screenshots)
 
 ### 2. Spam or Ham Detection Page
 ![image](https://user-images.githubusercontent.com/78029145/154802534-75818785-70a8-46ff-99cc-adfef7b0c95b.png)
